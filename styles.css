@@ -1,0 +1,43 @@
+*{
+    border: 1px solid red;
+}
+
+
+
+.heading-name{
+
+    color: blue;
+    font-family : cursive;
+    font-weight: bold;
+
+    
+}
+
+.bold-underline{
+    font-size :large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.google-font{
+    font-family: "Dancing Script";
+}
+
+.bar{
+    display : flex;
+    flex-direction : row-reverse;
+}
+
+.bar-elements{
+    padding:5px;
+    margin: 5px;
+}
+
+.profile {
+
+    height: 180px;
+    width: 150px;
+    border-radius : 50%;
+
+}
+
