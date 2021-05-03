@@ -1,38 +1,64 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Jiganesh Patil</title>
+</head>
 
-<html>
-	<head>
 
-		<title> Jiganesh Patil</title>
-		<link rel = "stylesheet" type ="text/css" href="styles.css">
-		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> <!--Font for header -->
-		
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#profile-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-	</head>
+    <div id ="main-section">
 
-	<body class= "google-font">
+        <section id="welcome-section">
+            <div id="text">
+                <h3 id="intro">Hello 👋 This is Jiganesh</h3>
+                <p id="brief">💻The Only Thing I want to do all day is to CODE!  </p>
+            </div>
+        </section>
 
-		<div class ="bar">
-				<div class ="bar-elements">About</div>
-				<div class ="bar-elements">Experience</div>
-				<div class ="bar-elements">Skills</div>
-				<div class ="bar-elements">Project</div>
-				<div class ="bar-elements">Contact</div>
-		</div>
+        <section id="projects">
+            <div>
+                <div class="container" id="project-1"><a class="project-links"href="https://jiganesh.github.io/TributePage/" target="_blank">Tribute Page</a></div>
+                <div class="container" id="project-2"><a class="project-links"href="https://jiganesh-basic-calculator.herokuapp.com/" target="_blank">Calculator</a></div>
+            </div>
+            <div>
+                <div class="container" id="project-3"><a class="project-links"href="https://jiganesh.github.io/LandingPage/" target ="_blank">Product Landing Page</a></div>
+                <div class="container" id="project-4"><a class="project-links"href="https://jiganesh.github.io/SurveyForm/" target ="_blank">Survey Page</a></div>
+            </div>
+        </section>
 
-		<h1 class ="heading-name">Jiganesh Patil</h1>
+        <section id="profile-link">
+            <div id="contact">
+                <p id="contact-header">Let's work together</p>
+                <p id="contact-p">How do you take your coffee?</p>
+            </div>
 
-		<img class= "profile" src="Images\Jiganesh_Photo.jpeg" alt="Jiganesh Profile Picture" >
+            <div id="links">
+                <ul>
+                    <li><a href="https://github.com/Jiganesh"><i class="fa fa-github"></i> Github</a></li>
+                    <li><a href="https://www.instagram.com/pyyhacker/"><i class="fa fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/jiganesh/"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+                </ul>
+            </div>
 
-		<div>
-			<ul>
-				<li>mobile number</li>
-				<li>email</li>
-				<li>linkedIn</li>
-				<li>github</li>
-			</ul>
-		</div>
-		<p class="bold-underline">Hello this is Jiganesh Patil</p>
+        </section>
 
-	</body>
+        <div id="footer">@ FCC Portfolio Challenge</div>
+    </div>
+    
+</body>
 </html>
