@@ -81,6 +81,8 @@ section {
   align-items: center;
   z-index: -1;
   word-spacing: 2px;
+  /*height:100vh */
+  /*Uncomment above code to pass all test cases of FCC Portfolio challenge*/
 }
 
 #welcome-section::after {
@@ -117,7 +119,7 @@ section {
   background-color: var(--white-brown);
 }
 
-.container {
+.project-tile {
   background-color: black;
   display: flex;
   justify-content: center;
@@ -128,7 +130,7 @@ section {
   margin-bottom: 40px;
   background-color: #ffdfa3;
 }
-.container a {
+.project-tile a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,11 +139,11 @@ section {
   font-size: 1.3rem;
   font-weight: 600;
 }
-.container a:hover {
+.project-tile a:hover {
   font-size: 1.6rem;
 }
 
-#profile-link {
+#profile-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -231,8 +233,8 @@ section {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  font-size: 1.3rem;
-  padding: 20px;
+  font-size: 1rem;
+  padding: 10px;
   height: 50px;
   color: white;
   background-color: var(--flaming-brown);
@@ -240,6 +242,11 @@ section {
 
 i {
   margin-right: 15px;
+}
+
+
+#profile-link{
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 800px){
@@ -261,7 +268,7 @@ i {
         justify-content: flex-end;
         align-items: flex-end;
         font-size: 1rem;
-        padding-top: 20px;
+        padding: 20px;
         height: 10px;
         color: white;
         background-color: var(--flaming-brown);
